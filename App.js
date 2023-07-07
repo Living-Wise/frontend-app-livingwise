@@ -1,11 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import LoginScreenComponent from './src/components/LoginScreen/LoginScreenComponent';
 import colors from "./src/styles/colors";
 
 export default function App() {
   return (
     <View style={styles.container}>
- 
+      <LoginScreenComponent />
     </View>
   );
 }
