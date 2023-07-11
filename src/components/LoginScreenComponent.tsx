@@ -37,10 +37,10 @@ export default function LoginScreenComponent() {
                 />
             </View>
             <View style={{ marginVertical: metrics.mediumMargin }}>
-                <PressableComponent title="Entrar" btnColor="primary"/>
+                <PressableComponent title="Entrar" btnColor="primary" />
             </View>
             <View style={{ marginVertical: metrics.mediumMargin }}>
-                <PressableComponent title="Entrar com Google" btnColor="secondary"/>
+                <PressableComponent title="Entrar com Google" btnColor="secondary" />
             </View>
         </View>
     );

@@ -6,8 +6,8 @@ import fonts from "../../styles/fontsSizeStyle";
 const pressableStyles = StyleSheet.create({
     button: {
         position:  'relative',
-        left: - 7,
-        bottom: 7,
+        left: - 8,
+        bottom: 8,
         height: 62,
         width: '100%',
         borderRadius: metrics.regularBorderRadius,
@@ -25,7 +25,7 @@ const pressableStyles = StyleSheet.create({
 
     shadowButton: {
         position: 'relative',
-        right: -7,
+        right: -8,
         height: 62,
         width: '100%',
         borderRadius: metrics.regularBorderRadius,
