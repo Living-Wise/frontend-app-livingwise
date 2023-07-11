@@ -1,14 +1,15 @@
 import { StyleSheet } from "react-native";
 import colors from "../../styles/colors";
+import metrics from "../../styles/metrics";
 
 const inputStyles = StyleSheet.create({
     input: {
         height: 65,
         width: '100%',
-        margin: 0,
+        marginBottom: metrics.mediumMargin,
         backgroundColor: colors.tertiary,
         borderRadius: 5,
-        padding: 10,
+        padding: 0,
     },
 
 });

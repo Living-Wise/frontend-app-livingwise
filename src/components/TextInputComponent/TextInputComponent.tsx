@@ -1,11 +1,11 @@
 import React from "react";
-import { Text, View, Image, TextInput } from "react-native";
+import { View, TextInput } from "react-native";
 import inputStyles from "./TextInputStyle";
 
 interface Props {
     placeholder: string;
     value: string;
-    setValue: React.Dispatch<React.SetStateAction<string>>;
+    setValue: React.Dispatch<React.SetStateAction<any>>;
 }
 
 export default function TextInputComponent(props: Props) {
