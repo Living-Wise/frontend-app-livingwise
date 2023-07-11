@@ -35,6 +35,42 @@ export default function LoginScreenComponent() {
                     setValue={setValue}
                 />
             </View>
+            <View style={{marginVertical: metrics.mediumMargin}}>
+                <TextInputComponent
+                    placeholder="E-mail"
+                    value={value?.email}
+                    setValue={setValue}
+                />
+                <TextInputComponent
+                    placeholder="Senha"
+                    value={value?.senha}
+                    setValue={setValue}
+                />
+            </View>
+            <View style={{marginVertical: metrics.mediumMargin}}>
+                <TextInputComponent
+                    placeholder="E-mail"
+                    value={value?.email}
+                    setValue={setValue}
+                />
+                <TextInputComponent
+                    placeholder="Senha"
+                    value={value?.senha}
+                    setValue={setValue}
+                />
+            </View>
+             <View style={{marginVertical: metrics.mediumMargin}}>
+                <TextInputComponent
+                    placeholder="E-mail"
+                    value={value?.email}
+                    setValue={setValue}
+                />
+                <TextInputComponent
+                    placeholder="Senha"
+                    value={value?.senha}
+                    setValue={setValue}
+                />
+            </View>
         </View>
     );
 }
