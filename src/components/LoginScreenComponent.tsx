@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Image } from "react-native";
+import { View, Image, Pressable, Text } from "react-native";
 import TextInputComponent from "./TextInputComponent/TextInputComponent";
 import metrics from "../styles/metrics";
 import PressableComponent from "./PressableComponent/PressableComponent";
@@ -37,11 +37,17 @@ export default function LoginScreenComponent() {
                     setValue={setValue}
                 />
             </View>
-            <View style={{ marginVertical: metrics.mediumMargin }}>
-                <PressableComponent title="Entrar" btnColor="primary" />
-           
-                <PressableComponent title="Entrar com Google" btnColor="secondary" />
+            <View style={{ marginTop: metrics.mediumMargin }}>
+                <View style={{ marginVertical: metrics.mediumMargin }}>
+                    <PressableComponent title="Entrar" btnColor="primary" />
+                </View>
+                <View style={{ marginVertical: metrics.mediumMargin }}>
+                    <PressableComponent title="Entrar com Google" btnColor="secondary" />
+                </View>
             </View>
+            <Pressable onPress={() => console.log("Cadastre-se")}>
+                <Text style={{color: 'white', textAlign: 'center'}}>Primeira vez? Cadastre-se</Text>
+            </Pressable>
         </View>
     );
 }

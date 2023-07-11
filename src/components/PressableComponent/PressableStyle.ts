@@ -40,7 +40,8 @@ const pressableStyles = StyleSheet.create({
         position: 'relative',
         bottom: 0,
         left: -30,
-        borderRadius: metrics.regularBorderRadius,
+        borderTopLeftRadius: metrics.regularBorderRadius,
+        borderBottomLeftRadius: metrics.regularBorderRadius,
     },
 
     text: {

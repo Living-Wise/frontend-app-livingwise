@@ -16,13 +16,16 @@ function ButtonComponent(props: Props) {
 
     return (
         <View style={pressableStyles.shadowButton}>
-            <Pressable style={[pressableStyles.button, btnColor]} onPress={() => console.log(props.btnColor)}>
+            <Pressable
+                style={[pressableStyles.button, btnColor]}
+                onPress={() => console.log(props.btnColor)}
+            >
                 <View>
                     {
                         props.btnColor === 'secondary' ?
                             <View style={pressableStyles.img}>
                                 <Image
-                                    source={require("../../../assets/logo.png")}
+                                    source={require("../../../assets/google_icon.png")}
                                     style={{
                                         width: 62,
                                         height: 62,
