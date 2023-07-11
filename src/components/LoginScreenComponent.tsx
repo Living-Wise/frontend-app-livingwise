@@ -6,7 +6,7 @@ import PressableComponent from "./PressableComponent/PressableComponent";
 
 interface Value {
     email: string,
-    senha: string,
+    password: string,
 };
 
 type RequiredValue = Required<Value>;
@@ -32,7 +32,7 @@ export default function LoginScreenComponent() {
                 />
                 <TextInputComponent
                     placeholder="Senha"
-                    value={value?.senha}
+                    value={value?.password}
                     setValue={setValue}
                 />
             </View>
