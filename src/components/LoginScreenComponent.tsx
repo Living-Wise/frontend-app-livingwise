@@ -16,7 +16,7 @@ export default function LoginScreenComponent() {
     return (
         <View>
             <Image
-                source={require("../../../assets/logo.png")}
+                source={require("../../assets/logo.png")}
                 style={{
                     width: 260,
                     height: 260,

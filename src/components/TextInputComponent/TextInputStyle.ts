@@ -6,10 +6,10 @@ const inputStyles = StyleSheet.create({
     input: {
         height: 65,
         width: '100%',
-        marginBottom: metrics.mediumMargin,
+        marginBottom: metrics.regularMargin,
         backgroundColor: colors.tertiary,
-        borderRadius: 5,
-        padding: 0,
+        borderRadius: metrics.regularBorderRadius,
+        padding: metrics.regularPadding,
     },
 
 });
