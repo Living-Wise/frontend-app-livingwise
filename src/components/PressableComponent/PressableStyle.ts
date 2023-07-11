@@ -39,7 +39,7 @@ const pressableStyles = StyleSheet.create({
         backgroundColor: 'white',
         position: 'relative',
         bottom: 0,
-        left: -32,
+        left: -30,
         borderRadius: metrics.regularBorderRadius,
     },
 
