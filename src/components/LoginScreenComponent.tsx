@@ -19,47 +19,11 @@ export default function LoginScreenComponent() {
                 source={require("../../assets/logo.png")}
                 style={{
                     width: 260,
-                    height: 260,
+                    height: 200,
                     alignSelf: 'center'
                 }}
             />
-            <View style={{marginVertical: metrics.mediumMargin}}>
-                <TextInputComponent
-                    placeholder="E-mail"
-                    value={value?.email}
-                    setValue={setValue}
-                />
-                <TextInputComponent
-                    placeholder="Senha"
-                    value={value?.senha}
-                    setValue={setValue}
-                />
-            </View>
-            <View style={{marginVertical: metrics.mediumMargin}}>
-                <TextInputComponent
-                    placeholder="E-mail"
-                    value={value?.email}
-                    setValue={setValue}
-                />
-                <TextInputComponent
-                    placeholder="Senha"
-                    value={value?.senha}
-                    setValue={setValue}
-                />
-            </View>
-            <View style={{marginVertical: metrics.mediumMargin}}>
-                <TextInputComponent
-                    placeholder="E-mail"
-                    value={value?.email}
-                    setValue={setValue}
-                />
-                <TextInputComponent
-                    placeholder="Senha"
-                    value={value?.senha}
-                    setValue={setValue}
-                />
-            </View>
-             <View style={{marginVertical: metrics.mediumMargin}}>
+            <View style={{ marginVertical: metrics.mediumMargin }}>
                 <TextInputComponent
                     placeholder="E-mail"
                     value={value?.email}
