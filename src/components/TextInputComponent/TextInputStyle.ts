@@ -4,6 +4,8 @@ import colors from "../../styles/colors";
 const inputStyles = StyleSheet.create({
     input: {
         height: 65,
+        width: '100%',
+        margin: 0,
         backgroundColor: colors.tertiary,
         borderRadius: 5,
         padding: 10,
