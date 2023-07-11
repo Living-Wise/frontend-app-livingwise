@@ -13,10 +13,10 @@ function ButtonComponent(props: Props) {
     if (props.btnColor === 'secondary') {
         btnColor = pressableStyles.button.secondaryBtn
     }
-    
+
     return (
         <View style={pressableStyles.shadowButton}>
-            <Pressable style={[pressableStyles.button, btnColor]}>
+            <Pressable style={[pressableStyles.button, btnColor]} onPress={() => console.log(props.btnColor)}>
                 <Text style={pressableStyles.text}>{props.title}</Text>
             </Pressable>
         </View>

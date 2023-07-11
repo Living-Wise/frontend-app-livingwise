@@ -40,6 +40,14 @@ export default function LoginScreenComponent() {
                 <PressableComponent title="Entrar" btnColor="primary" />
             </View>
             <View style={{ marginVertical: metrics.mediumMargin }}>
+                <Image
+                    source={require("../../assets/logo.png")}
+                    style={{
+                        width: 30,
+                        height: 30,
+                        alignSelf: 'center'
+                    }}
+                />
                 <PressableComponent title="Entrar com Google" btnColor="secondary" />
             </View>
         </View>
