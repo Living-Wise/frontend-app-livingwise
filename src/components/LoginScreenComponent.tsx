@@ -36,11 +36,12 @@ export default function LoginScreenComponent() {
                     setValue={setValue}
                 />
             </View>
-
             <View style={{ marginVertical: metrics.mediumMargin }}>
-                <PressableComponent title="Entrar"/>
+                <PressableComponent title="Entrar" btnColor="primary"/>
             </View>
-
+            <View style={{ marginVertical: metrics.mediumMargin }}>
+                <PressableComponent title="Entrar com Google" btnColor="secondary"/>
+            </View>
         </View>
     );
 }

@@ -10,10 +10,17 @@ const pressableStyles = StyleSheet.create({
         bottom: 7,
         height: 62,
         width: '100%',
-        backgroundColor: colors.primary,
         borderRadius: metrics.regularBorderRadius,
         alignItems: 'center',
         justifyContent: 'center',
+
+        primaryBtn: {
+            backgroundColor: colors.primary,
+        },
+
+        secondaryBtn: {
+            backgroundColor: colors.tertiary,
+        },
     },
 
     shadowButton: {
