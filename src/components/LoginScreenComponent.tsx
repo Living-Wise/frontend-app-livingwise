@@ -3,6 +3,7 @@ import { View, Image } from "react-native";
 import TextInputComponent from "./TextInputComponent/TextInputComponent";
 import metrics from "../styles/metrics";
 import PressableComponent from "./PressableComponent/PressableComponent";
+import pressableStyles from "./PressableComponent/PressableStyle";
 
 interface Value {
     email: string,
@@ -40,14 +41,6 @@ export default function LoginScreenComponent() {
                 <PressableComponent title="Entrar" btnColor="primary" />
             </View>
             <View style={{ marginVertical: metrics.mediumMargin }}>
-                <Image
-                    source={require("../../assets/logo.png")}
-                    style={{
-                        width: 30,
-                        height: 30,
-                        alignSelf: 'center'
-                    }}
-                />
                 <PressableComponent title="Entrar com Google" btnColor="secondary" />
             </View>
         </View>

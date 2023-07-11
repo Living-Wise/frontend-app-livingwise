@@ -5,10 +5,11 @@ import fonts from "../../styles/fontsSizeStyle";
 
 const pressableStyles = StyleSheet.create({
     button: {
-        position:  'relative',
+        position: 'relative',
         left: - 8,
         bottom: 8,
         height: 62,
+        flexDirection: 'row',
         width: '100%',
         borderRadius: metrics.regularBorderRadius,
         alignItems: 'center',
@@ -31,7 +32,15 @@ const pressableStyles = StyleSheet.create({
         borderRadius: metrics.regularBorderRadius,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: 'black',        
+        backgroundColor: 'black',
+    },
+
+    img: {
+        backgroundColor: 'white',
+        position: 'relative',
+        bottom: 0,
+        left: -32,
+        borderRadius: metrics.regularBorderRadius,
     },
 
     text: {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Pressable, Text } from 'react-native';
+import { View, Pressable, Text, Image } from 'react-native';
 import pressableStyles from './PressableStyle';
 
 interface Props {
@@ -17,8 +17,26 @@ function ButtonComponent(props: Props) {
     return (
         <View style={pressableStyles.shadowButton}>
             <Pressable style={[pressableStyles.button, btnColor]} onPress={() => console.log(props.btnColor)}>
+                <View>
+                    {
+                        props.btnColor === 'secondary' ?
+                            <View style={pressableStyles.img}>
+                                <Image
+                                    source={require("../../../assets/logo.png")}
+                                    style={{
+                                        width: 62,
+                                        height: 62,
+                                        alignSelf: 'center'
+                                    }}
+                                />
+                            </View>
+                            :
+                            null
+                    }
+                </View>
                 <Text style={pressableStyles.text}>{props.title}</Text>
             </Pressable>
+
         </View>
     )
 }
