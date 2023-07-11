@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 import colors from "../../styles/colors";
 import metrics from "../../styles/metrics";
-import fonts from "../../styles/fontsSize";
+import fonts from "../../styles/fontsSizeStyle";
 
 const inputStyles = StyleSheet.create({
     input: {

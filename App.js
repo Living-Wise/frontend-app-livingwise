@@ -6,9 +6,11 @@ import metrics from './src/styles/metrics';
 export default function App() {
   return (
     <View style={styles.container}>
-      <StatusBar backgroundColor={colors.secondary} barStyle='white'/>
+      <StatusBar backgroundColor={colors.secondary} barStyle='white' />
       <ScrollView style={styles.scrollContainer}>
-        <LoginScreenComponent />
+        <View style={{marginHorizontal: metrics.mediumMargin}}>
+          <LoginScreenComponent />
+        </View>
       </ScrollView>
     </View>
   );
@@ -24,7 +26,7 @@ const styles = StyleSheet.create({
 
   scrollContainer: {
     width: '100%',
-    paddingHorizontal: metrics.largestPadding
-  }
+    paddingHorizontal: metrics.regularPadding,
+  },
 
 });

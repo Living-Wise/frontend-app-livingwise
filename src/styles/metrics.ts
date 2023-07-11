@@ -1,4 +1,5 @@
 const metrics = {
+    smallMargin: 6,
     mediumMargin: 10,
     regularMargin: 18,
     largestMargin: 24,

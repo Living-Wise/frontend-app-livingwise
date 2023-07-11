@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { View, Image } from "react-native";
 import TextInputComponent from "./TextInputComponent/TextInputComponent";
 import metrics from "../styles/metrics";
+import PressableComponent from "./PressableComponent/PressableComponent";
 
 interface Value {
     email: string,
@@ -35,6 +36,11 @@ export default function LoginScreenComponent() {
                     setValue={setValue}
                 />
             </View>
+
+            <View style={{ marginVertical: metrics.mediumMargin }}>
+                <PressableComponent title="Entrar"/>
+            </View>
+
         </View>
     );
 }
